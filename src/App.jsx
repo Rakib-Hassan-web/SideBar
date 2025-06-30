@@ -4,6 +4,7 @@ import LayoutOne from './Layout/LayoutOne'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Navbar from './componants/Navbar'
 
 const App = () => {
 
@@ -21,10 +22,6 @@ const App = () => {
   
  </Route>
 
-
-
-
-
     </Route>
 
 
@@ -32,6 +29,7 @@ const App = () => {
   return (
   <>
 
+<Navbar/>
   <RouterProvider router={myRout} />
   
   
