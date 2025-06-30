@@ -14,7 +14,7 @@ const handleplus =()=>{
     <div className=' ml-[400px] mt-[-555px] flex justify-center items-center gap-5'>
 
 
-   <h1 className=''>{value}</h1>
+   <h1 className='text-[40px]'>{value}</h1>
 
 
 
