@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Navbar from './componants/Navbar'
+import Value from './pages/Value'
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
  <Route index element={<Home/>} />
  <Route path='/About' element={<About/>} />
  <Route path='/Contact' element={<Contact/>} />
+ <Route path='/Value' element={<Value/>} />
 
   
  </Route>
